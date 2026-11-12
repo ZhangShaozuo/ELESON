@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+cache/
+runs/
+tmp/
+*.pyc
+
+# Original research data and paper: keep the GitHub repository code-only.
+Segmented_Data/
+Single_Label_Data/
+Trajectory_Data/
+*.pdf
+
+# Local credentials and editor state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
