@@ -1,0 +1,43 @@
+{
+  "first_pass": {
+    "python": "3.12.14",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "device": "cpu",
+    "unit_tests_passed": 13,
+    "all_five_folds_group_isolation": true,
+    "all_five_folds_exact_test_coverage": true,
+    "mall_holdout_verified": true,
+    "default_model_forward_backward_checkpoint_reload": true,
+    "reloaded_predictions_checked": 3232,
+    "overfit_diagnostic": {
+      "purpose": "fixed real batch overfit diagnostic; not held-out evaluation",
+      "samples": 12,
+      "first_loss": 5.023065567016602,
+      "last_loss": 0.3578302264213562,
+      "accuracy": 1.0,
+      "counts": [
+        4,
+        4,
+        4
+      ]
+    },
+    "formal_training_completed": false
+  },
+  "review_v3": {
+    "unit_tests_passed": 17,
+    "preprocessing_version": 3,
+    "usable_recordings": 726,
+    "windows": 16184,
+    "all_folds_group_isolation": true,
+    "all_folds_exact_test_coverage": true,
+    "json_config_training_checkpoint_reload": true,
+    "reloaded_predictions_checked": 3241,
+    "backbones_numerically_tested": [
+      "convlstm",
+      "cnn_lstm"
+    ],
+    "loss_equations_and_reductions_tested": true,
+    "formal_training_completed": false
+  }
+}

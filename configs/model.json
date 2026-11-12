@@ -1,0 +1,14 @@
+{
+  "feature_dim": 128,
+  "hidden": 32,
+  "frame_samples": 10,
+  "backbone": "convlstm",
+  "kernel_size": 3,
+  "encoder_width": 256,
+  "generator_widths": [256, 512],
+  "intervention_width": 128,
+  "adversary_width": 64,
+  "evidence_widths": [128, 64],
+  "evidence_bias": 1.0,
+  "noise_std": 0.05
+}

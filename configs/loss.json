@@ -1,0 +1,9 @@
+{
+  "w1": 0.6,
+  "w2": 0.3,
+  "w3": 0.4,
+  "w4": 1.0,
+  "con_reduction": "sample",
+  "adv_reduction": "batch",
+  "variance_weight": 1.0
+}
